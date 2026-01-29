@@ -1,0 +1,11 @@
+# ESP-IDF rác
+build/
+sdkconfig
+sdkconfig.old
+
+# File tạm của hệ thống
+.DS_Store
+Thumbs.db
+
+# VS Code rác
+.vscode/
