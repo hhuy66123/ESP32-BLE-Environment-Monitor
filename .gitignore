@@ -1,11 +1,19 @@
-# ESP-IDF rác
+# Build directories
 build/
+
+# ESP-IDF specific
 sdkconfig
 sdkconfig.old
 
-# File tạm của hệ thống
-.DS_Store
-Thumbs.db
+# Các file sdkconfig phụ trợ (như trong hình của bạn)
+sdkconfig.ci.*
+sdkconfig.defaults.*
+!sdkconfig.defaults  # Giữ lại file mặc định nếu bạn cần nó để config ban đầu
 
-# VS Code rác
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# IDE files
 .vscode/
+.idea/
